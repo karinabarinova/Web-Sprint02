@@ -5,7 +5,7 @@ function deleteExtraSpaces(str = ' ', add = ' ') {
 function removeDuplicates(arr) {
     return arr.filter((item, index) => {
         return arr.indexOf(item) === index;
-    })
+    });
 }
 function addWords(obj, words) {
     if (obj) {
